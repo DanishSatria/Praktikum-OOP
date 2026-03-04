@@ -1,9 +1,5 @@
 # 🎮 Sistem Pertarungan Game RPG - Pembelajaran OOP Python
 
-![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)
-![OOP Concepts](https://img.shields.io/badge/OOP-4%20Pillars-green.svg)
-![SMK Telkom Malang](https://img.shields.io/badge/SMK-Telkom%20Malang-red.svg)
-
 ## 📋 Deskripsi Program
 
 Program ini adalah implementasi lengkap pembelajaran **Pemrograman Berorientasi Objek (OOP)** menggunakan Python, dengan studi kasus **Sistem Pertarungan Game RPG**. Program ini mencakup semua konsep dasar hingga lanjutan OOP yang dipelajari di kelas XI SMK Telkom Malang.
