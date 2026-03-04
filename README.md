@@ -284,3 +284,54 @@ print("""
 4. Abstraction: Membuat kontrak dengan abstract class
 5. Polymorphism: Method sama, perilaku berbeda
 """)
+
+Latihan 1 & 2: Dasar Class dan Interaksi
+Konsep: Membuat class Hero dengan constructor __init__
+
+Atribut: name, hp, attack_power
+
+Method: info(), serang(), diserang()
+
+Analisis 1: Atribut publik bisa diubah langsung dari luar class
+
+Analisis 2: Parameter lawan harus objek utuh untuk mengakses method diserang()
+
+Latihan 3: Inheritance (Pewarisan)
+Konsep: Class Mage mewarisi Hero dengan super()
+
+Fitur baru: Atribut mana dan method skill_fireball()
+
+Analisis 3: Tanpa super(), atribut induk tidak terinisialisasi → error
+
+Latihan 4: Encapsulation (Enkapsulasi)
+Konsep: Private attribute __hp dengan getter dan setter
+
+Validasi: HP tidak boleh negatif atau > 1000
+
+Analisis 4:
+
+Name mangling (_HeroEncapsulated__hp) memungkinkan akses paksa
+
+Setter penting untuk menjaga integritas data
+
+Latihan 5: Abstraction & Interface
+Konsep: Abstract class GameUnit dengan @abstractmethod
+
+Implementasi: HeroUnit dan MonsterUnit wajib implementasi semua abstract method
+
+Analisis 5:
+
+Abstract class tidak bisa diinstansiasi
+
+Berfungsi sebagai kontrak untuk class turunan
+
+Latihan 6: Polymorphism
+Konsep: Satu method serang() dengan implementasi berbeda di setiap class anak
+
+Class anak: MagePolymorph, ArcherPolymorph, FighterPolymorph, HealerPolymorph
+
+Analisis 6:
+
+Polymorphism memudahkan penambahan class baru tanpa mengubah kode lama
+
+Nama method harus konsisten
